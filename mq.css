@@ -1,0 +1,99 @@
+/* ***************************************     Media Queries *********************************************/
+
+
+
+@media(max-width:1025px){
+    body{
+        font-size: 20px;
+        height: 100vh;
+        background-image: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position: 28%;
+    }
+    body{
+        font-size: 25px;
+    }
+    #game{
+        padding: 50px;
+        width: 50vh;
+        padding-top: 100px;
+    }
+    .btns{
+        width: 35vh;
+        margin-top: 100px;
+    }
+    .btns button{
+        height: 12vw;
+        width: 12vw;
+    }
+}
+
+@media(max-width:500px){
+    body{
+        font-size: 20px;
+        height: 100vh;
+        background-image: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position: center;
+        background-position: 31%;
+    }
+    #game{
+        padding: 50px;
+        width: 50vh;
+        padding-top: 100px;
+    }
+    .btns{
+        width: 35vh;
+        margin-top: 100px;
+    }
+    .btns button{
+        height: 20vw;
+        width: 20vw;
+    }
+    .gameButton button{
+        margin: 5px;
+    }
+}
+
+@media(max-width:420px){
+    body{
+        font-size: 20px;
+        height: 100vh;
+    }
+    #game{
+        padding: 5px;
+        width: 40vh;
+        padding-top: 25px;
+    }
+    .btns{
+        width: 35vh;
+        margin-top: 50px;
+    }
+    .btns button{
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media(max-width:380px){
+    body{
+        font-size: 20px;
+        height: 100vh;
+    }
+    #game{
+        padding: 5px;
+        width: 40vh;
+        padding-top: 25px;
+    }
+    .btns{
+        width: 35vh;
+        margin-top: 50px;
+    }
+    .btns button{
+        height: 20vw;
+        width: 20vw;
+    }
+}
+

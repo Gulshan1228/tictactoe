@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+#game{
+    margin: auto auto;
+    margin-top: 2rem;
+    width: 35vw;
+    height: 90vh;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+#game h1{
+    font-size: 34px;
+    font-family: cursive;
+    color: black;
+    letter-spacing: 0.2mm;
+    text-shadow: 2px 2px 2px rgba(49, 49, 49, 0.35);
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    gap: 0;
+}
+.btns button{
+    height: 8vw;
+    width: 8vw;
+    border: none;
+    /* border-radius: 10px; */
+    /* background-color: #008fab; */
+    background: transparent;
+    font-size: 3rem;
+    color: #ef233c;
+    font-weight: bold;
+}
+
+
+/* 9 Buttons */
+.btns button:nth-child(1){
+    border: 3px solid black;
+    border-left: none;
+    border-top: none;
+}
+.btns button:nth-child(2){
+    border: 3px solid black;
+    border-left: none;
+    border-top: none;
+}
+.btns button:nth-child(3){
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.btns button:nth-child(4){
+    border: 3px solid black;
+    border-left: none;
+    border-top: none;
+}
+.btns button:nth-child(5){
+    border: 3px solid black;
+    border: none;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+.btns button:nth-child(6){
+    /* border: 3px solid black; */
+    border-top: none;
+    border-bottom: 3px solid black;
+}
+
+.btns button:nth-child(7){
+    border-right: 3px solid black;
+    border-top: none;
+}
+.btns button:nth-child(8){
+    border-right: 3px solid black;
+    border-top: none;
+}
+.btns button:nth-child(9){
+    border-top: none;
+}
+
+
+
+/* game Button */
+.gameButton{
+    gap: 1rem;
+}
+.gameButton button{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(220deg , #0077b6, #023e8a );
+    background-color: #008fab;
+    width: 140px;
+    border: 0;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.gameButton button:hover{
+    box-shadow: 0.5px 2px 2px 0px grey;
+    transform: translateY(-1px);
+    transition: all 0.1s ease;
+}
+
+.gameButton button:active{
+    box-shadow: 0.5px 0px 0px 0px grey;
+    transform: translateY(0px);
+}
+footer p{
+    text-align: end;
+    padding-right: 16px;
+    color: black;
+}
+
+
+
+
+/* After Click CSS */
+.winner{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -45px;
+}
+.hide{
+    display: none;
+}
+
+
+#red-color{
+    color: #ef233c;
+}
+#santra-color{
+    color: rgb(255, 136, 0);
+}
+
+
+
+
+
+
+
