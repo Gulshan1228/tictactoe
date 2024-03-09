@@ -27,7 +27,7 @@ boxs.forEach((box) => {
             count++
             if(count == 9){
                 Winnner.innerHTML="Match Draw , Click on Play Again"
-                body.style.height="110vh"
+                body.style.height="115vh"
             }
         }
         // console.log(count)
@@ -43,7 +43,7 @@ let checkWinner=() => {
             console.log(` ${boxs[0].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[0].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
 
@@ -52,7 +52,7 @@ let checkWinner=() => {
             console.log(` ${boxs[3].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[3].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     } 
 
@@ -61,7 +61,7 @@ let checkWinner=() => {
             console.log(` ${boxs[6].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[6].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
 
@@ -70,7 +70,7 @@ let checkWinner=() => {
             console.log(` ${boxs[3].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[3].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
 
@@ -79,7 +79,7 @@ let checkWinner=() => {
             console.log(` ${boxs[4].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[4].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
     
@@ -88,7 +88,7 @@ let checkWinner=() => {
             console.log(` ${boxs[2].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[2].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
      if ( boxs[2].innerHTML!='' && boxs[4].innerHTML!='' && boxs[6].innerHTML!='' ){
@@ -96,7 +96,7 @@ let checkWinner=() => {
             console.log(` ${boxs[2].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[2].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
 
         }
     }
@@ -105,7 +105,7 @@ let checkWinner=() => {
             console.log(` ${boxs[4].innerHTML} is The Winnner `)
             Winnner.innerHTML=`Congratulations , ${boxs[4].innerHTML} is Winner`
             boxs.disabled=true
-                body.style.height="110vh"
+                body.style.height="115vh"
         }
     }
 
