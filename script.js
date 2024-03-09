@@ -22,7 +22,7 @@ boxs.forEach ((box) => {
 let count = 0
 boxs.forEach((box) => {
     box.addEventListener("click" , () => {
-        if(box.innerText != ''){
+        if(box.innerText != '' && Winnner.innerHTML == '' ){
             count++
             if(count == 9){
                 Winnner.innerHTML="Match Draw , Click on Play Again"
