@@ -11,21 +11,21 @@
         background-size: cover;
         background-position: 28%;
     }
-    body{
-        font-size: 25px;
+    #game h1{
+        font-size: 50px;
     }
     #game{
         padding: 50px;
-        width: 50vh;
+        width: 60vw;
         padding-top: 100px;
     }
     .btns{
-        width: 35vh;
+        width: 45vw;
         margin-top: 100px;
     }
     .btns button{
-        height: 12vw;
-        width: 12vw;
+        height: 14vw;
+        width: 14vw;
     }
 }
 
@@ -39,13 +39,16 @@
         background-position: center;
         background-position: 31%;
     }
+    #game h1{
+        font-size: 30px;
+    }
     #game{
         padding: 50px;
-        width: 50vh;
+        width: 80vw;
         padding-top: 100px;
     }
     .btns{
-        width: 35vh;
+        width: 55vw;
         margin-top: 100px;
     }
     .btns button{
@@ -54,6 +57,13 @@
     }
     .gameButton button{
         margin: 5px;
+    }
+    .btns button{
+        height: 15vw;
+        width: 15vw;
+    }
+    footer p{
+        font-size: 15px;
     }
 }
 
@@ -64,16 +74,29 @@
     }
     #game{
         padding: 5px;
-        width: 40vh;
+        width: 80vw;
         padding-top: 25px;
     }
+    #game h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 0.25mm;
+        text-shadow: 1px 1px 2px rgba(49, 49, 49, 0.35);
+    }
+
     .btns{
-        width: 35vh;
+        width: 60vw;
         margin-top: 50px;
     }
     .btns button{
         height: 20vw;
         width: 20vw;
+    }
+    .winner {
+        text-align: center;
+        font-size: 2rem;
+    }
+    footer p{
+        font-size: 13px;
     }
 }
 
@@ -84,11 +107,11 @@
     }
     #game{
         padding: 5px;
-        width: 40vh;
+        width: 80vw;
         padding-top: 25px;
     }
     .btns{
-        width: 35vh;
+        width: 60vw;
         margin-top: 50px;
     }
     .btns button{
