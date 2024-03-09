@@ -115,6 +115,7 @@ reset.addEventListener( "click" , () => {
         i.innerHTML='';
         i.disabled=false;
         player1=true
+        Winnner.innerHTML=''
     }
 })
 restart.addEventListener( "click" , () => {
@@ -122,6 +123,7 @@ restart.addEventListener( "click" , () => {
         i.innerHTML='';
         player1=true
         i.disabled=false;
+        Winnner.innerHTML=''
     }
 })
 
